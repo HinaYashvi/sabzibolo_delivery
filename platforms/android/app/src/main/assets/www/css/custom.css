@@ -1,0 +1,113 @@
+
+.login-screen-content .list-block ul {
+  background: none;  
+  list-style: none;
+}
+.login-screen-content{
+  background: #8bcc8d!important;
+}
+.login-screen-content .login-screen-title,
+.login-screen-content .list-block,
+.login-screen-content .content-block,
+.login-screen-content .list-block-label {
+  max-width: 480px;
+  margin: 24px auto;
+}
+.login-screen-content .list-block ul:before {
+  display: none;
+}
+.login-screen-content .list-block ul:after {
+  display: none;
+}
+.login-screen-content .list-block-label,.login-content {
+  text-align: center!important;
+}
+.navbar-fixed .page .login-screen-content {
+  padding-top: 0;
+}
+.login-screen-title {
+  text-align: center;
+  font-size: 34px;
+}
+.p-t-15{
+	padding-top: 15%;
+}
+.pos-abs{
+	position: absolute!important;
+}
+.login-btn{
+	/*background-color: #6FA733!important;*/
+  background-color: #205304!important;
+}
+.green-txt{
+	/*color: #6FA733!important;*/
+  color: #205304!important;
+}
+.fw-600{
+	font-weight: 600;
+}
+.navbar-bg, .toolbar, .subnavbar{
+  background: #6FA733!important;
+}
+.logo { 
+  line-height: 50px;
+}
+#login ul li{
+  margin-bottom: 0% 0% 3 0%;
+}
+.ls-4{
+  letter-spacing: 4pt;
+}
+.text-capitalize{
+  text-transform: capitalize!important;
+}
+.text-white{
+  color: #fff;
+}
+#login_formDiv{
+  margin: 0 auto;
+  display: block;
+}
+.inputbox{
+    margin: 0 7px 15px 38px;
+}
+.login-screen-content .inputbox input{
+    /*background: rgba(230, 169, 169, 0.1) none repeat scroll 0 0;*/
+    background: rgba(255, 255, 255, 0.12) none repeat scroll 0 0;
+    /*border: medium none;    */
+    /* border: 1px solid; */ 
+    border-radius: 50px;
+    color: #fff;  
+    height: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    /*width: 75%;*/
+    width: 90%;
+}
+.text-left{
+  text-align: left!important;
+}
+
+.md .item-input:not(.item-input-outline) .item-input-wrap:after,.md .input:not(.input-outline):after{
+  background-color: #205304;
+}
+.fs-16{
+  font-size: 16px!important;
+}
+.fs-12{
+  font-size: 12px!important;
+}
+.text-red{
+  color: red;
+}
+@media only screen and (max-width: 360px) {
+    .logo img{
+        height: 130px!important; 
+    }    
+}
+@media only screen and (max-width: 1080px) {
+    .logo img{
+        height: 180px;
+        width: 220px;
+    }
+}

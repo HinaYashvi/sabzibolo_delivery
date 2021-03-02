@@ -1,0 +1,18 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Sabzibolo - delivery",
+  "short_name": "Sabzibolo - delivery",
+  "version": "com.phonegap.sabzibolo_delivery",
+  "description": "This app is designed for sabzibolo delivery person.",
+  "author": "Sabzibolo Team",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "orientation": "portrait",
+  "start_url": "index.html"
+}

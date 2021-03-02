@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width height=device-height, target-densitydpi=device-dpi" />  
+
+    <meta content="width=device-width, initial-scale=1" name="viewport"> 
+
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Expires" CONTENT="-1">   
+    
+    <!--link rel="stylesheet" type="text/css" href="css/framework7.css"-->
+    <link rel="stylesheet" type="text/css" href="css/framework7-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/framework7.bundle.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="icon" href="img/icon.png">
+    <title>Sabzibolo - Delivery</title>
+</head> 
+
+<body>
+<div id="app">  
+  <div class="statusbar"></div> 
+  <div class="view view-main view-init" data-url="/">
+    <div class="page no-navbar no-swipeback" data-name="index">     
+      <div class="page-content login-screen-content p-t-15">                 
+        <div class="login-content">      
+          <div class="logo">        
+            <a href="#"><img src="img/logo.png"/></a> 
+          </div>
+          <form class="fromLogin">               
+            <div class="list"> 
+                <ul>
+                  <li class="item-content item-input">
+                    <div class="item-inner">
+                      <div class="item-title item-label green-txt fw-600 ls-4 text-capitalize text-left">USERNAME</div>
+                      <div class="item-input-wrap">
+                        <input type="number" name="mobilenum" class="mobile_no"  />
+                      </div>
+                      <span class="text-left text-red mt-0 fs-12 mobileerror" ></span>
+                    </div>
+                  </li>
+                  <li class="item-content item-input">
+                    <div class="item-inner">
+                      <div class="item-title item-label green-txt fw-600 ls-4 text-capitalize text-left">PASSWORD</div>
+                      <div class="item-input-wrap">
+                        <input type="password" name="upass" class="pass_val" />
+                      </div>
+                      <span class="text-left text-red mt-0 fs-12 passerror" ></span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+                      
+              <div class="block">
+                  <div class="content-block"><a href="#" id="login" onclick="getlogin()" class="button button-fill button-big login-btn">Sign In</a></div> 
+              </div> 
+
+              <div class="list">              
+                <div class="block-footer">
+                  <a href="#" class="prompt-title-ok button button-big green-txt">Forget  password ?</a>
+                  <a href="#" class="button button-big green-txt">Create New Account</a>      
+                </div>
+              </div>
+            
+          </form>                  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/framework7.js"></script>
+<script type="text/javascript" src="js/framework7.bundle.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/routes.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
